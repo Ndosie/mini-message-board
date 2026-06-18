@@ -1,0 +1,78 @@
+body {
+  background-color: whitesmoke;
+  font-family: monospace;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+label,
+input {
+  display: block;
+}
+
+label {
+  margin-bottom: 8px;
+  font-size: inherit;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  font-size: inherit;
+  font-family: inherit;
+  border-radius: 8px;
+  border: 1px solid darkslateblue;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid black;
+}
+
+button {
+  width: 100%;
+  border: 0px;
+  border-radius: 8px;
+  background-color: darkslateblue;
+  color: white;
+  padding: 8px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a {
+  background-color: darkslateblue;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  font-size: medium;
+  display: flex;
+  justify-self: center;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: ghostwhite;
+  padding: 16px;
+}
+
+.message {
+  border-radius: 16px;
+  margin-bottom: 8px;
+  background-color: whitesmoke;
+  padding: 4px 8px 0 8px;
+}
+
+.info {
+  font-size: small;
+  color: darkslategrey;
+  text-align: right;
+}
