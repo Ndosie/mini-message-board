@@ -7,13 +7,11 @@
     <title>Mini Message Board</title>
   </head>
   <body>
-    <div class="container">
-      <h1><%= title %></h1>
-      <p>Below are the messages</p>
-      <% messages.forEach(message => { %>
-        <%- include("message", {message: message}) %>
-      <% }) %>
-      <a href="/new" class="button">Add Message</a>
+    <div class="container details">
+      <h1>Message Details</h1>
+      <p><%= message.text %></p>
+      <p><%= message.user %> on <%= message.added.toLocaleString() %></p>
+      <a href="/">Go back</a>
     </div>
   </body>
 </html>

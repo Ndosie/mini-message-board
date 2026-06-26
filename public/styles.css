@@ -46,6 +46,10 @@ button {
 }
 
 a {
+  color: darkslategray;
+}
+
+.button {
   background-color: darkslateblue;
   padding: 8px;
   text-decoration: none;
@@ -75,4 +79,11 @@ a {
   font-size: small;
   color: darkslategrey;
   text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.details {
+  text-align: center;
 }
