@@ -9,8 +9,8 @@
   <body>
     <div class="container details">
       <h1>Message Details</h1>
-      <p><%= message.text %></p>
-      <p><%= message.user %> on <%= message.added.toLocaleString() %></p>
+      <p><%= message.name %></p>
+      <p><%= message.text %> on <%= message.created_at.toLocaleString() %></p>
       <a href="/">Go back</a>
     </div>
   </body>

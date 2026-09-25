@@ -2,6 +2,6 @@
   <p><%= message.text %></p>
   <p class="info">
     <a href="/messages/<%= message.id %>">Open</a>
-    <%= message.user %> on <%= message.added.toLocaleString() %>
+    <%= message.name %> on <%= message.created_at.toLocaleString() %>
   </p>
 </div>
